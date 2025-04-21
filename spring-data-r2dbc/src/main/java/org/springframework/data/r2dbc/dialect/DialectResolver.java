@@ -117,6 +117,7 @@ public class DialectResolver {
 			BUILTIN.put("MariaDB", MySqlDialect.INSTANCE);
 			BUILTIN.put("Oracle", OracleDialect.INSTANCE);
 			BUILTIN.put("PostgreSQL", PostgresDialect.INSTANCE);
+			BUILTIN.put("GaussDB", GaussDBDialect.INSTANCE);
 		}
 
 		@Override

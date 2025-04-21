@@ -161,6 +161,13 @@
 		</dependency>
 
 		<dependency>
+			<groupId>com.huaweicloud.gaussdb</groupId>
+			<artifactId>gaussdbjdbc</artifactId>
+			<version>${gaussdb.version}</version>
+			<scope>test</scope>
+		</dependency>
+
+		<dependency>
 			<groupId>com.microsoft.sqlserver</groupId>
 			<artifactId>mssql-jdbc</artifactId>
 			<version>${mssql.version}</version>
@@ -202,6 +209,13 @@
 			<artifactId>r2dbc-h2</artifactId>
 			<version>${r2dbc-h2.version}</version>
 			<scope>test</scope>
+		</dependency>
+
+		<dependency>
+			<groupId>com.huaweicloud.gaussdb</groupId>
+			<artifactId>gaussdb-r2dbc</artifactId>
+			<version>${r2dbc-gaussdb.version}</version>
+			<optional>true</optional>
 		</dependency>
 
 		<dependency>
